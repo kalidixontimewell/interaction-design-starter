@@ -106,3 +106,4 @@ footer {
    --------------------------------------------------------------------- */
 .chapter-figure {
   display: flex;
+  flex-wrap: wrap;     /*drop to a new line when tight*/
