@@ -110,3 +110,5 @@ footer {
   gap: 3rem;                  /* space between them */
   align-items: center;        /* line them up vertically */
   max-width: 70rem;           /* wider than a text chapter */
+  margin: 0 auto;
+  padding: 4rem 2rem;
