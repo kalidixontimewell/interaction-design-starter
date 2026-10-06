@@ -115,3 +115,26 @@ footer {
   }
 .chapter-figure .chapter-text { flex: 1 1 20rem; }
 .chapter-figure figure        { flex: 1 1 40rem; margin: 0; }
+.scene-sticky {
+  position: sticky;   /* scroll normally, until... */
+  top: 0;             /* ...you reach the top of the window. Then stay. */
+  height: 100svh;     /* exactly one screen tall, like your cover */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scene-steps {
+  position: relative;       /* so the words pass in front of the picture */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60svh;               /* how far the reader scrolls between steps */
+  padding-bottom: 40svh;
+}
+
+.step {
+  max-width: 26rem;
+  padding: 1rem 1.5rem;
+  background: var(--paper); /* or the words vanish into the picture */
+}
