@@ -104,3 +104,5 @@ footer {
    YOUR STYLES
    Write your own rules below this line.
    --------------------------------------------------------------------- */
+.chapter-figure {
+  display: flex;
