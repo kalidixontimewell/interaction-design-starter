@@ -108,3 +108,5 @@ footer {
   display: flex;
   flex-wrap: wrap;     /*drop to a new line when tight*/
   gap: 3rem;                  /* space between them */
+  align-items: center;        /* line them up vertically */
+  max-width: 70rem;           /* wider than a text chapter */
