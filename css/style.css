@@ -33,12 +33,11 @@ h1 {
 
 /* SKELETON PAGE */
 .chapter {
-  border-bottom: 3px solid var(--ink);    /* where each chapter ends */
+  /* border-bottom: 3px solid var(--ink);    where each chapter ends */
 }
 .beat {
   position: relative;                     /* in front of a held picture */
-  min-height: 100svh;                     /* one screen per beat until proven otherwise */
-  border-bottom: 1px dashed var(--ink);   /* where each beat ends */
+  min-height: 100svh;                     /* one screen per beat until proven o*/
 }
 .beat,
 footer {
