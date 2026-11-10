@@ -5,69 +5,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Your title here</title>
 
-  <!-- A Google Font. Choose your own at fonts.google.com, copy the <link> tags
-       it gives you over these, then change font-family in css/style.css. -->
+  <!-- Your Google Font. Swap these for the font you chose. -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
-  <!-- The cover: the first screen the reader sees. -->
-  <header>
-    <h1>This is Kali's starter file ...</h1>
-    <p>
-      A cover, one chapter and a credits block: the start of a one-page scrolling
-      narrative. The type and colours are placeholders for you to replace. The
-      layouts and the scenes are yours to build, starting in Week&nbsp;2.
-    </p>
-    <p>By Your Name &middot; 28 September 2026</p>
-  </header>
 
   <main>
 
-    <!-- A chapter. Copy the whole <section> to make another. -->
-    <section class="chapter">
-      <h2>A chapter is one idea</h2>
-      <p>
-        A scrolling story is not one long article. It is a sequence of chapters,
-        each carrying a single idea. If you cannot say what a chapter is for in
-        one sentence, it is doing two jobs and should be split.
-      </p>
+    <!-- Chapter 1: the corner. Beats 01 and 02 share one held picture.
+         Beat 01 is also the cover, so this page has no <header>. -->
+    <section class="chapter" id="chapter-1-the-corner">
+      <div class="held">
+        <img src="images/scene-01.svg" alt="The bar today.">
+      </div>
+      <div class="beat" id="beat-01-today">
+        <h1>This was a bank for 120 years</h1>
+      </div>
+      <div class="beat" id="beat-02-1905">
+        <p>1905. Built as a bank.</p>
+      </div>
     </section>
 
-    <section class="chapter-figure">
-      <div class="chapter-text">
-        <h2>Your heading</h2>
-        <p>…</p>
-  </div>
-  <figure>
-    <img src="images/scene-01.svg" alt="Say what the picture shows.">
-    <figcaption>What it shows, when, and who made it.</figcaption>
-  </figure>
-</section>
-<section class="scene">
-  <div class="scene-sticky">      <!-- the picture: this holds still -->
-    <img src="images/scene-02.svg" alt="Say what the picture shows.">
-  </div>
-  <div class="scene-steps">       <!-- the words: these scroll past -->
-    <div class="step"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolore dicta modi quae maxime impedit, ea corporis molestiae itaque animi repellat, numquam officiis consequuntur pariatur vitae laudantium architecto labore voluptatum?</p></div>
-    <div class="step"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque ipsam laudantium molestiae perspiciatis? Ducimus, autem hic. Recusandae temporibus expedita, laborum dolores rem unde! Delectus, nisi dolorem. Incidunt ipsum fugit cumque.</p></div>
-    <div class="step"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, id. Doloremque, eos sequi perferendis nihil magni fuga minima facilis eveniet impedit corporis voluptate expedita odit? Minima, commodi. Ipsa, voluptate omnis?</p></div>
-  </div>
-</section>
-    
+    <!-- Chapter 2: the closing. Three beats, each with its own picture -->
+    <section class="chapter" id="chapter-2-the-closing">
+      <div class="beat" id="beat-03-queue">
+        <h2>The queue</h2>
+      </div>
+      <div class="beat" id="beat-04-closures">
+        <h2>Closures</h2>
+      </div>
+      <div class="beat" id="beat-05-notice">
+        <h2>The notice</h2>
+      </div>
+    </section>
+
+    <!-- Chapter 3: inside. Beat 07 is the interaction -->
+    <section class="chapter" id="chapter-3-inside">
+      <div class="beat" id="beat-06-refit">
+        <h2>The refit</h2>
+      </div>
+      <div class="beat" id="beat-07-then-now">
+        <!-- INTERACTION: before/after slider -->
+        <h2>Then and now</h2>
+      </div>
+    </section>
+
+    <!-- Chapter 4: outside -->
+    <section class="chapter" id="chapter-4-outside">
+      <div class="beat" id="beat-08-outside">
+        <h2>Outside</h2>
+      </div>
+    </section>
+
   </main>
 
-  <!-- Sources and credits. Fill this in as you go. -->
+  <!-- Credits belong to the whole page, so they sit outside the chapters -->
   <footer>
     <h2>Sources and credits</h2>
     <ul>
-      <li>Your first source: publication, title, date, URL.</li>
-      <li>Images: where each one came from and under what licence.</li>
+      <li>Every source and every picture: who, what, where, licence.</li>
     </ul>
   </footer>
 
