@@ -1,8 +1,8 @@
 /* COLOURS: placeholders. Change them to your own palette. */
 :root {
-  --ink:    #1a1a1a;   /* text */
+  --ink:    #9a0b0b;   /* text */
   --paper:  #ffffff;   /* page background */
-  --accent: #c0392b;   /* links, and anything you want to stand out */
+  --accent: #6277e0;   /* links, and anything you want to stand out */
 }
 
 /* BASICS */
@@ -37,7 +37,7 @@ h1 {
 }
 .beat {
   position: relative;                     /* in front of a held picture */
-  min-height: 100svh;                     /* one screen per beat until proven o*/
+  min-height: 50svh;                     /* one screen per beat until proven o*/
 }
 .beat,
 footer {
