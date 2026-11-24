@@ -61,5 +61,3 @@ footer {
 
 /* YOUR STYLES: your layouts and design go below this line
 CLICKS: let them through a beat to the held picture */
-.beat {pointer-events: none; }
-.beat > * {pointer-events: auto;}
