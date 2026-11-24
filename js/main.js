@@ -1,21 +1,23 @@
-const buttonD20 = document.querySelector("#button-D20");
-const noteD20 = document.querySelector("#note-D20");
+const openD20 = document.querySelector("#openD20");
 
-noteD20.hidden = true;
+document.querySelector("#buttonD20").addEventListener("click", function () {
+    openD20.showModal(); // opens it over the page; Esc closes it too
+});
 
-buttonD20.addEventListener("click", function () {
-  noteD20.hidden = !noteD20.hidden;
-  buttonD20.setAttribute("aria.expanded", !noteD20.hidden);
+document
+  .querySelector("#closeD20")
+  .addEventListener("click", function () {
+    openD20.close();
   });
 
-  const openD20 = document.querySelector("#openD20");
+  const openD4 = document.querySelector("#openD4");
 
-document.querySelector("#openD20")
-  .addEventListener("click", function () {
-    openD20.showModal();
-  });
+document.querySelector("#buttonD4").addEventListener("click", function () {
+    openD4.showModal(); // opens it over the page; Esc closes it too
+});
 
-document.querySelector("#closeD20")
+document
+  .querySelector("#closeD4")
   .addEventListener("click", function () {
-    closeD20.close();
+    openD4.close();
   });

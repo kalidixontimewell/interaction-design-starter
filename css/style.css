@@ -65,3 +65,7 @@ footer {
 #beat-05-notice { min-height: 50svh; }   /* beat 05 holds for a second screen */
 
 /* YOUR STYLES: your layouts and design go below this line */
+/* In css/style.css, under YOUR STYLES.
+   CLICKS: let them through a beat to the held picture */
+.beat { pointer-events: none; }
+.beat > * { pointer-events: auto; }
