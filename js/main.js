@@ -1,11 +1,5 @@
-const postcard = document.querySelector("#postcard");
+const D20 = document.querySelector ("#D20");
 
-document.querySelector("#open-postcard").addEventListener("click", function () {
-  postcard.showModal(); // opens it over the page; Esc closes it too
-});
-
-document
-  .querySelector("#close-postcard")
-  .addEventListener("click", function () {
-    postcard.close();
-  });
+D20.addEventListener("click", function () {
+    console.log("D20 was clicked");
+    });
