@@ -1,7 +1,7 @@
 /* COLOURS: placeholders. Change them to your own palette. */
 :root {
   --ink:    #9a0b0b;   /* text */
-  --paper:  #ffffff;   /* page background */
+  --paper:  #0095DC;   /* page background */
   --accent: #6277e0;   /* links, and anything you want to stand out */
 }
 
@@ -40,16 +40,18 @@ h1 {
   color: #32a852;
 }
 
-.chapter-6-definitions {
-  display: block;
-  max-width: 80%;
-  line-height: 1;
-  margin: 0 auto;                         /* centres the block */
+.glossarybuttons {
+  min-height: 10svh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  scale: 150%;
 }
 
 .beat {
   position: relative;                     /* in front of a held picture */
-  min-height: 50svh;                     /* one screen per beat until proven o*/
+  min-height: 10svh;                     /* one screen per beat until proven o*/
 }
 .beat,
 footer {
