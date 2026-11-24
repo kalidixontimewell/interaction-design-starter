@@ -33,7 +33,7 @@ h1 {
 
 /* SKELETON PAGE */
 .chapter {
-  /* border-bottom: 3px solid var(--ink);    where each chapter ends */
+  border-bottom: 3px solid var(--ink);  /* where each chapter ends */
 }
 
 .chapter-5-glossary {
