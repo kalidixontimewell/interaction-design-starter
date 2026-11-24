@@ -62,6 +62,6 @@ footer {
 }
 
 /* BEAT HEIGHTS: only the beats that need more than one screen */
-#beat-05-notice { min-height: 200svh; }   /* beat 05 holds for a second screen */
+#beat-05-notice { min-height: 50svh; }   /* beat 05 holds for a second screen */
 
 /* YOUR STYLES: your layouts and design go below this line */
