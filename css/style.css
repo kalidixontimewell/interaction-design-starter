@@ -40,15 +40,22 @@ h1 {
   color: #32a852;
 }
 
+.chapter-6-definitions {
+  display: block;
+  max-width: 80%;
+  line-height: 1;
+  margin: 0 auto;                         /* centres the block */
+}
+
 .beat {
   position: relative;                     /* in front of a held picture */
   min-height: 50svh;                     /* one screen per beat until proven o*/
 }
 .beat,
 footer {
-  max-width: 40rem;                       /* keeps lines of text short */
+  max-width: 50rem;                       /* keeps lines of text short */
   margin: 0 auto;                         /* centres the block */
-  padding: 4rem 2rem;
+  padding: 1rem 1rem;
 }
 
 /* A HELD PICTURE: stays in place while its chapter's beats scroll past */
