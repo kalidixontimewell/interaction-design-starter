@@ -59,4 +59,7 @@ footer {
 /* BEAT HEIGHTS: only the beats that need more than one screen */
 #beat-05-notice { min-height: 200svh; }   /* beat 05 holds for a second screen */
 
-/* YOUR STYLES: your layouts and design go below this line */
+/* YOUR STYLES: your layouts and design go below this line
+CLICKS: let them through a beat to the held picture */
+.beat {pointer-events: none; }
+.beat > * {pointer-events: auto;}
