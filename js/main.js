@@ -50,7 +50,7 @@ document
 const openD% = document.querySelector("#openD%");
 
 document.querySelector("#buttonD%").addEventListener("click", function () {
-    openD12.showModal(); // opens it over the page; Esc closes it too
+    openD%.showModal(); // opens it over the page; Esc closes it too
 });
 
 document
