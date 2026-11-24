@@ -47,16 +47,16 @@ document
   });
 
 
-const openD% = document.querySelector("#openD%");
+const openD = document.querySelector("#openD");
 
-document.querySelector("#buttonD%").addEventListener("click", function () {
-    openD%.showModal(); // opens it over the page; Esc closes it too
+document.querySelector("#buttonD").addEventListener("click", function () {
+    openD.showModal(); // opens it over the page; Esc closes it too
 });
 
 document
-  .querySelector("#closeD%")
+  .querySelector("#closeD")
   .addEventListener("click", function () {
-    openD%.close();
+    openD.close();
   });
 
 
