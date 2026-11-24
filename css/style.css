@@ -35,6 +35,11 @@ h1 {
 .chapter {
   /* border-bottom: 3px solid var(--ink);    where each chapter ends */
 }
+
+.chapter-5-glossary {
+  color: #32a852;
+}
+
 .beat {
   position: relative;                     /* in front of a held picture */
   min-height: 50svh;                     /* one screen per beat until proven o*/

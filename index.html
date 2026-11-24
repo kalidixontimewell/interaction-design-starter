@@ -18,13 +18,13 @@
 
     <!-- Chapter 1: Title Screen. Beats 01 - One Held Image.
          Beat 01 is also the cover, so this page has no <header>. -->
-    <section class="chapter" id="chapter-1-title-screen">
+    <section class="chapter-1-title" id="chapter-1-title-screen">
       <div class="held">
         <img src="images/DTK - PH - D&D v4.png" alt="The bar today.">
       </div>
 
       <!--Chapter 2: Introduction. Beats 02 - 05-->
-   <section class="chapter" id="chapter-2-introduction"></section>
+   <section class="chapter-2-introduction" id="chapter-2-introduction"></section>
       <div class="held">
         <img src="images/DTK - PH - D&D v5.png" alt="tester">
       </div>
@@ -54,7 +54,7 @@
       </section>
 
    <!--Chapter 3: BREAK. Beats 06 - Scrolling-->
-   <section class="chapter" id="chapter-3-scrolling"></section>
+   <section class="chapter-3-scrolling" id="chapter-3-scrolling"></section>
       <div class="beat" id="beat-06-scroll">
         <!--<h2>Note: Wallpaper Only</h2-->
         <div class="beat">
@@ -62,15 +62,15 @@
       </div>
 
   <!--Chapter 4: Game Layout. Beat XX-->
-  <section class="chapter" id="chapter-4-game-layout-intro"></section>
+  <section class="chapter-4-game" id="chapter-4-game-layout-intro"></section>
       <div class="held" id="beat-07-scroll">
         <div class="held">
-        <img src="images/DTK - PH Gif - Tilixia.gif" alt="book">
+        <!--<img src="images/DTK - PH Gif - Tilixia.gif" alt="book">-->
       </div>
     </section>
 
     <!-- Chapter 5: Beat XX - Glossary -->
-    <section class="chapter" id="chapter-5-glossary">
+    <section class="chapter-5-glossary" id="chapter-5-glossary">
       <div class="beat" id="beat-08-glossary">
         <h2>Glossary</h2>
         <p>Click a word for the definition.</p>
@@ -79,7 +79,14 @@
       <button type="button" id="open-postcard">D20</button>
         <dialog id="postcard">
           <img src="images/DTK - Glossary - D20.png" alt="D20" width="500" height="900">
-          <p>The most important die to use in the game. Rolled whenever your character tries to do something that the DM decides has a chance of success or failuture - higher the roll, likelier of success </p>
+          <p>The most important die to use in the game. Rolled whenever your character tries to do something that the DM decides has a chance of success or failure - higher the roll, likelier of success </p>
+          <button type="button" id="close-postcard">Close</button>
+          </dialog>
+
+      <button type="button" id="open-postcard">D4</button>
+        <dialog id="postcard">
+          <img src="images/DTK - Glossary - D4.png" alt="D20" width="500" height="900">
+          <p>For situations where you want consistent results or when the impact of luck needs to be minimised. Often used for small, light weapons e.g. daggers </p>
           <button type="button" id="close-postcard">Close</button>
           </dialog>
   
